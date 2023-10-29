@@ -8,7 +8,7 @@ body {
     /* background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed; */
     /* background-size: cover; */
     background: #b0e4d5;
-    height: calc(100 vh - 164px);
+    height: calc(100vh - 164px);
     color: #555555;
     font-family: 'Lato';
 }
@@ -32,6 +32,10 @@ body {
     width: fit-content;
 }
 
+#our-logo {
+    font-family: 'Metal Mania';
+}
+
 .shop-now-button {
     background: black;
     color: white;
@@ -49,16 +53,32 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: rgb(26, 109, 98);
     color: white;
 }
 
+.text-green {
+    color: rgb(75, 131, 81) !important;
+}
+
 .text-black {
-    color: #000 !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.border-green {
+    border: 1px solid rgb(75, 131, 81) !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+}
+
+.bg-black {
+    background: #000000 !important;
+}
+
+.navbar-toggler-icon{
+    color: rgb(75, 131, 81) !important;
 }
 
 /* ---------------------------------------------- Media Queries */
@@ -82,5 +102,18 @@ body {
 
     .header-container {
         padding-top: 164px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-text {
+        padding-top: 250px;
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-link {
+        padding: 0.125rem 0.25rem;
     }
 }
