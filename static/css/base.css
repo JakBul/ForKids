@@ -13,7 +13,7 @@ body {
     font-family: 'Lato';
 }
 
-/* ---------------------------------------------- base.html */
+/* ---------------------------------------------- Home Page */
 
 /* from Bulma */
 .icon {
@@ -80,6 +80,19 @@ body {
 .navbar-toggler-icon{
     color: rgb(75, 131, 81) !important;
 }
+
+/* ---------------------------------------------- Products pages */
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
 
 /* ---------------------------------------------- Media Queries */
 
