@@ -1,0 +1,142 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Speed Champions 2 Fast 2 Furious Nissan Skyline GT-R (R34)",
+            "description": "Fast and Furious fans can relive thrilling moments from the 2 Fast 2 Furious movie with this LEGO Nissan Skyline GT-R (R34) model car building kit. Inspired by the real-life version, the toy race car model features iconic stripes on the side, a wing at the back and a grille on the front.",
+            "price": 15.99,
+            "category": 1,
+            "rating": 4.6,
+            "image_url": "",
+            "image": "lego_car.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340444",
+            "name": "Creator 3 in 1 Exotic Parrot to Frog to Fish",
+            "description": "This LEGO Creator 3in1 animal toy set features 3 animals for kids 7+ years old: a parrot toy perched on a branch, a playful frog and a toy fish. The toy parrot is richly coloured and comes with jointed parts that allow it to rotate its body on the branch and move its wings and tail",
+            "price": 18.99,
+            "category": 1,
+            "rating": 4,
+            "image_url": "",
+            "image": "lego_parrot.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340422",
+            "name": "Star Wars Imperial Star Destroyer",
+            "description": "This Star Wars buildable model captures all the authentic details of the starship as it appeared in the opening scene of Star Wars: A New Hope. Amazingly detailed, it features Iconic elements, swivelling guns, a tilting radar dish, huge engine exhausts and intricate surface detailing",
+            "price": 999.99,
+            "category": 2,
+            "rating": 5,
+            "image_url": "",
+            "image": "collectibles_ship.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340487",
+            "name": "Boxed Edition Gimli Collectible",
+            "description": "Welcome to Boxed Edition TUBBZ; highly detailed, carefully crafted collectible figures that capture the essence of your favourite characters, complete with costumes and accessories. Flaunt your collection in style using the display box adorned with awesome Lord of the Rings inspired graphics, perfect for displaying on your shelf or desk",
+            "price": 16.99,
+            "category": 2,
+            "rating": 4.1,
+            "image_url": "",
+            "image": "collectibles_gimli.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340531",
+            "name": "Nano Pods Marvel Surprise Connectable Collectible",
+            "description": "THE CONNECTABLE COLLECTABLE - Connect to other character NANO PODS in a nano second! Super cute stylised NANO detailing. Spider-man? Iron Man? Venom? Which of the Avengers will you find?",
+            "price": 5.00,
+            "category": 3,
+            "rating": 3,
+            "image_url": "",
+            "image": "clearance_nano_pod.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340566",
+            "name": "Hasbro Gaming Jenga Classic",
+            "description": "THE ORIGINAL WOOD BLOCK STACKING GAME: It's the classic Jenga game that families have loved for generations. Slide out blocks one by one, and place them on top of the stack. But don't let the tower fall",
+            "price": 9.99,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "",
+            "image": "deals_jenga.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340570",
+            "name": "OUTSMARTED! The Live Family Quiz Show Board Game",
+            "description": "IT'S A LIVE FAMILY QUIZ SHOW IN YOUR LIVING ROOM: Outsmarted uses the power of technology to create the most exciting, immersive board game experience ever!! Put your friends & family in the Hot Seat against the clock in your own Live TV Quiz Show.",
+            "price": 32.99,
+            "category": 5,
+            "rating": 4.2,
+            "image_url": "",
+            "image": "board_game_outsmarted.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340571",
+            "name": "Mattel Games Scrabble, English Version",
+            "description": "Scrabble is the classic word-forming game that always spells F-U-N. The object of the game is to earn the highest score by spelling words in crossword fashion onto the playing board. Each player selects seven letter tiles at random to begin",
+            "price": 16.99,
+            "category": 5,
+            "rating": 3.8,
+            "image_url": "",
+            "image": "board_game_scrabble.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340508",
+            "name": "UNO",
+            "description": "The classic card game of matching colors and numbers. Special Action Cards and Wild Cards for unexpected excitement and game-changing fun",
+            "price": 6.99,
+            "category": 6,
+            "rating": 4.4,
+            "image_url": "",
+            "image": "card_game_uno.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340564",
+            "name": "More or Less Original Edition Card Game ",
+            "description": "Have a guess!: The quiz game based on fun trivia! Are sharks more or less old than trees? Are there more or less than 500,000 meatballs consumed in Ikea stores daily? Simply Answer with “more” or “less”!",
+            "price": 12.99,
+            "category": 6,
+            "rating": 4.8,
+            "image_url": "",
+            "image": "card_game_more_or_less.jpg"
+        }
+    }
+]
