@@ -27,9 +27,9 @@
                 Games
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="games-link">
-                <a href="" class="dropdown-item">Board Games</a>
-                <a href="" class="dropdown-item">Card Games</a>
-                <a href="" class="dropdown-item">All Games</a>
+                <a href="{% url 'products' %}?category=board_games" class="dropdown-item">Board Games</a>
+                <a href="{% url 'products' %}?category=card_games" class="dropdown-item">Card Games</a>
+                <a href="{% url 'products' %}?category=board_games,card_games" class="dropdown-item">All Games</a>
             </div>
         </li>
 
@@ -38,10 +38,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
