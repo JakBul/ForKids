@@ -1,5 +1,6 @@
 import os
-
+if os.path.exists("env.py"):
+    import env
 
 """
 Django settings for ForKids project.
@@ -23,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-bu(x)5+etf5=x*d)6jr&08t-*kwlel)@0sbp@e@y^elbw#kh9e'
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
