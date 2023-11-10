@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-jakbul-forkids-wn80jzxtvv.us2.codeanyapp.com'
+    '8000-jakbul-forkids-h36jw8bss7.us2.codeanyapp.com'
 ]
 
 
