@@ -45,4 +45,4 @@ def order_history(request, order_number):
         'from_profile': True,
     }
 
-return render(request, template, context)
+    return render(request, template, context)
