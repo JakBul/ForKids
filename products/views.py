@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
@@ -40,10 +41,10 @@ def all_products(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(request,"You didn't enter any search criteria!")
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query)|Q(description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -72,8 +73,14 @@ def product_detail(request, product_id):
 
 # CRUD functionality for product management
 
+@login_required
 def add_product(request):
     """ Add a product to the store """
+
+    # defensive programming: admin has to be logged in
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admin can enter.')
+        return redirect(reverse('home'))
 
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
@@ -95,8 +102,14 @@ def add_product(request):
     return render(request, template, context)
 
 
+@login_required
 def edit_product(request, product_id):
     """ Edit a product in the store """
+
+    # defensive programming: admin has to be logged in
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admin can enter.')
+        return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST':
@@ -121,8 +134,14 @@ def edit_product(request, product_id):
     return render(request, template, context)
 
 
+@login_required
 def delete_product(request, product_id):
     """ Delete a product from the store """
+
+    # defensive programming: admin has to be logged in
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admin can enter.')
+        return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
