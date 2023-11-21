@@ -32,7 +32,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-jakbul-forkids-h36jw8bss7.us2.codeanyapp.com',
-    'https://for-kids-1eb46f197086.herokuapp.com/',
+    'for-kids-1eb46f197086.herokuapp.com',
 ]
 
 
