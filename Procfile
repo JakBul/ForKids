@@ -1,1 +1,1 @@
-web: gunicorn for-kids.wsgi:application
+web: gunicorn ForKids.wsgi:application
