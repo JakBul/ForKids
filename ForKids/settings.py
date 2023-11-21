@@ -1,4 +1,5 @@
 import os
+import dj_database_url
 if os.path.exists("env.py"):
     import env
 
@@ -30,7 +31,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-jakbul-forkids-h36jw8bss7.us2.codeanyapp.com'
+    '8000-jakbul-forkids-h36jw8bss7.us2.codeanyapp.com',
+    'https://for-kids-1eb46f197086.herokuapp.com /',
 ]
 
 
@@ -124,12 +126,18 @@ WSGI_APPLICATION = 'ForKids.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+# when app is running on heroku - connect with postgres, otherwise sqlite
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation
@@ -188,3 +196,6 @@ STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'forkids@example.com'
+
+# Preventing 500 error during login on a deployed site
+ACCOUNT_EMAIL_VERIFICATION = 'none'

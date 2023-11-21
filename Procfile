@@ -1,0 +1,1 @@
+web: gunicorn for-kids.wsgi:application
