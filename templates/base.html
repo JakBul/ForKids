@@ -38,7 +38,7 @@
     <title>ForKids {% block extra_title %}{% endblock %}</title>
     </head>
 
-    <body>
+    <body class="d-flex flex-column min-vh-100">
         <header class="container-fluid fixed-top">
             <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
@@ -134,6 +134,46 @@
     
     {% block content %}
     {% endblock %}
+
+    <footer class="mt-auto">
+        <div class="container-fluid bg-light w-100">
+            <div class="row text-center">
+                <div class="col-12 col-lg-7 mt-2">
+                    <p>
+                        Friendly retail shop of toys for everyone. Don't forget to follow us on social platforms.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <ul>
+                        <li class="list-inline-item">
+                            <a class="text-black nav-link" href="https://www.facebook.com/" target="_blank" rel="noopener">
+                                <div class="text-center">
+                                    <div><i class="fab fa-facebook fa-lg"></i></div>
+                                    <p>Facebook</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-black nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                                <div class="text-center">
+                                    <div><i class="fab fa-instagram fa-lg"></i></div>
+                                    <p>Instagram</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="text-black nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                                <div class="text-center">
+                                    <div><i class="fab fa-youtube fa-lg"></i></div>
+                                    <p>Youtube</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     {% block postloadjs %}
         <!-- Sends a toast message to customer -->
