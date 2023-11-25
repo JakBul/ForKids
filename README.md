@@ -1,39 +1,45 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# FORKIDS
 
-Welcome,
+[Visit the website here](https://for-kids-1eb46f197086.herokuapp.com)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![screenshot](documentation/mockup.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+This project was created as a web app application using Python within Django framework, ElephantSQL as a relational database system, Amazon Web Services, Stripe payment platform, Heroku cloud platform and more. The whole development proccess has been made using cloud IDE called CodeAnywhere. The project was made for educational purposes only.
 
-## Codeanywhere Reminders
+The business goals for this website are:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+1. To boost the ForKids brand awareness
+2. To get more leads
+3. To build a database of users - current and possibly future customers
+4. To increase sales
 
-`python3 -m http.server`
+The user goals for this website are:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+| As a/an... | I want to be able to... | so that I can... |
+| --- | --- | --- |
+| website visitor | view products | select one to buy |
+| | check every individual product details | identify the price, description, product rating or image |
+| | see the total cost of my shopping at any time | avoid spending too much |
+| | sort the products | easily identify the best rated, best priced or categorically sorted products |
+| | search for a product by a name or description | find a specific product |
+| | view items that I want to buy in my bag | check the total cost and all selected products |
+| | adjust the quantity or items in my bag | easily make changes before checkout |
+| | safely enter my payment and personal information | checkout quickly without any problems |
+| | view an order confirmation after checkout | verify that I have not made any mistakes |
+| | receive an email confirmation after checking out | keep the confirmation of the purchase |
+| site user | easily register for an account | have a personal profile |
+| | login, logout, or recover my password | access or recover my personal account information |
+| | have a personalized user profile | view my order history or order confirmations |
+| administrator | add products | add new items to my store |
+| | edit a product | change product information |
+| | delete a product | remove items that are no longer for sale |
+| | check list of completed orders and users | have feedback of the website processes |
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## UX
 
-`http_server`
+### **Strategy**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Considering the core UX principles, first I started to think about the strategy for this website and defined who the target users would be and what features/technologies they would want.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+ForKids target users are kids, adults, parents or collectors. Anyone who loves toys in general.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!

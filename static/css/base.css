@@ -81,10 +81,6 @@ body {
     color: rgb(75, 131, 81) !important;
 }
 
-.footer {
-    border-top: 2px solid #000;
-}
-
 /* ---------------------------------------------- Allauth templates */
 .allauth-form-inner-content {
     padding-bottom: 50px;
