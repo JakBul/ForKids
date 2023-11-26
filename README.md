@@ -88,7 +88,7 @@ This project is about the Full Stack development - so I decided to focus not onl
 
 I intentionally used CSS styling to make interaction with this web application handy, for example with text styling, shadow and hovering effects on buttons, product design and checkout page.
 
-Last but not least, I worked on responsiveness to allow users to use the webpage on different devices without any additional errors.
+Last but not least, I worked on responsiveness to allow users to use the webpage on different devices without any additional errors. Creating something responsive is integral to the design.
 
 I felt that all mentioned above helps to provide the best User Experience and highlight the purpose of this project.
 
