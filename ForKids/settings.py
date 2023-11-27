@@ -28,11 +28,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY", '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True 
+# 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
     '8000-jakbul-forkids-h36jw8bss7.us2.codeanyapp.com',
     'for-kids-1eb46f197086.herokuapp.com',
+    'localhost',
 ]
 
 

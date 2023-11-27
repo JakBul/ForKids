@@ -5,9 +5,9 @@ html {
 }
 
 body {
-    /* background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed; */
-    /* background-size: cover; */
-    background: #b0e4d5;
+    background: url('/media/homepage_background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center top;
     height: calc(100vh - 164px);
     color: #555555;
     font-family: 'Lato';
@@ -148,6 +148,13 @@ body {
     position: fixed;
     background: white;
     z-index: -1;
+}
+
+.card-img-top {
+    margin: 5px;
+    width: 280px;
+    height: 280px;
+    object-fit: contain;
 }
 
 a.category-badge > span.badge:hover {
