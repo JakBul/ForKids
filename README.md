@@ -119,8 +119,7 @@ I decided to use Google font 'Lato' with different font weights throughout the p
 
 ## Wireframes
 
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+To follow the best practices, wireframes were developed for mobile, tablet, and desktop sizes.
 
 ## Features
 
@@ -130,17 +129,75 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ## Tools & Technologies Used
 
+* [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content
+* [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) used for user interaction on the site
+* [Python](https://www.python.org) used as the back-end programming language
+* [Django](https://www.djangoproject.com) used as the Python framework for the site
+* [Git](https://git-scm.com) used for version control (`git add`, `git commit`, `git push`)
+* [GitHub](https://github.com) used for secure online code storage
+* [Heroku](https://heroku.com) used for hosting the deployed back-end site
+* [CodeAnywhere](https://codeanywhere.com) used as a cloud-based IDE for the development
+* [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components
+* [Font Awesome](https://fontawesome.com/) used to obtain the media icons
+* [Google Fonts](https://fonts.google.com/) used to obtain the fonts linked in the header and used in the project
+* [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project
+* [Grammarly](https://www.grammarly.com/) used to fix the thousands of grammar errors across the project
+* [Coloors](https://coolors.co/) used to create a color palette for the design
+* [W3C Markup Validation Service](https://validator.w3.org/) used to validate all HTML code written and used on this webpage
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) used to validate all CSS code written and used on this webpage
+* [JSHint](https://jshint.com/) used to validate all JS code written and used on this webpage
+* [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) used to validate all of my Python files
+* [Lucid](https://www.lucidchart.com/pages/examples/er-diagram-tool) used to design the database ER diagram
+* [PostgreSQL](https://www.postgresql.org) used as the relational database management
+* [ElephantSQL](https://www.elephantsql.com) used as the Postgres database
+* [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services
+* [AWS S3](https://aws.amazon.com/s3) used for online static file storage
+
 ## Media
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Pexels](https://www.pexels.com) | entire site | background image | home page hero image |
+| from [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
+| [Pexels](https://www.pexels.com/photo/toy-military-vehicles-5257289/) | home page | background image | hero image |
 
 ## Database Design
 
-Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
-Understanding the relationships between different tables can save time later in the project.
+Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models. Understanding the relationships between different tables can save time later in the project. Here is one example of created model and shown it's data in the table:
+
+```python
+class Product(models.Model):
+    category = models.ForeignKey(
+        "Category", null=True, blank=True, on_delete=models.SET_NULL)
+    sku = models.CharField(max_length=254, null=True, blank=True)
+    name = models.CharField(max_length=254)
+    description = models.TextField()
+    price = models.DecimalField(max_digits=6, decimal_places=2)
+    rating = models.DecimalField(
+        max_digits=6, decimal_places=2, null=True, blank=True)
+    image_url = models.URLField(max_length=1024, null=True, blank=True)
+    image = models.ImageField(null=True, blank=True)
+
+    def __str__(self):
+        return self.name
+```
+
+* Table: **Product**
+
+    | **PK** | **id** (unique) | Type | Notes |
+    | --- | --- | --- | --- |
+    | **FK** | category | ForeignKey | FK to **Category** model |
+    | | sku | CharField | |
+    | | name | CharField | |
+    | | description | TextField | |
+    | | price | DecimalField | |
+    | | rating | DecimalField | |
+    | | image_url | URLField | |
+    | | image | ImageField | |
+
+I have used [Lucidchart](https://www.lucidchart.com/) to design my site ERD. The entire data schema is shown in the screenshot below:
+
+![screenshot](documentation/erd.png)
 
 # Testing
 

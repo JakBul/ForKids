@@ -68,7 +68,7 @@
                 <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                     <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                         <li class="list-inline-item dropdown">
-                            <a class="text-green nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="text-green nav-link navigation-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <div class="text-center">
                                     <div><i class="fas fa-user fa-lg"></i></div>
                                     <p class="my-0">My Account</p>
@@ -88,7 +88,7 @@
                             </div>
                         </li>
                         <li class="list-inline-item">
-                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-green{% endif %} nav-link" href="{% url 'view_bag' %}">
+                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-green{% endif %} nav-link navigation-link" href="{% url 'view_bag' %}">
                                 <div class="text-center">
                                     <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                     <p class="my-0">
@@ -141,10 +141,10 @@
     {% endblock %}
 
         <footer class="mt-auto">
-            <div class="container-fluid bg-light w-100">
+            <div class="container-fluid footer-bottom bg-dark w-100">
                 <div class="row text-center">
                     <div class="col-12 col-lg-7 w-100">
-                        <p class="text-center text-black pt-2 footer-text">
+                        <p class="text-center text-white pt-2 footer-text">
                             Friendly toys shop for everyone. We sell Lego, Collectible Items and Games.
                             <br>
                             <br>
@@ -154,7 +154,7 @@
                     <div class="col-12 col-lg-5 pt-2 w-100 my-auto">
                         <ul>
                             <li class="list-inline-item">
-                                <a class="text-black nav-link" href="https://www.facebook.com/" target="_blank" rel="noopener">
+                                <a class="text-white nav-link social-link" href="https://www.facebook.com/" target="_blank" rel="noopener">
                                     <div class="text-center">
                                         <div><i class="fab fa-facebook fa-lg"></i></div>
                                         <p>Facebook</p>
@@ -162,7 +162,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="text-black nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                                <a class="text-white nav-link social-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
                                     <div class="text-center">
                                         <div><i class="fab fa-instagram fa-lg"></i></div>
                                         <p>Instagram</p>
@@ -170,7 +170,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a class="text-black nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                                <a class="text-white nav-link social-link" href="https://www.instagram.com/" target="_blank" rel="noopener">
                                     <div class="text-center">
                                         <div><i class="fab fa-youtube fa-lg"></i></div>
                                         <p>Youtube</p>
