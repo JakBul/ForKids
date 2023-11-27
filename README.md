@@ -55,7 +55,7 @@ And now the question is - what would be these users looking for? The answers I f
 * Get a confirmation of their purchase
 * Access to social media links to follow the news
 
-This project has been built to offer all of the named things. An extra effort was taken to provide intuitive interaction for every user visiting the webpage.
+This project has been built to offer all of the named things. An extra effort was taken to provide an intuitive interaction for every user visiting the webpage.
 
 ### **Scope**
 
@@ -82,9 +82,11 @@ A special user 'admin' can access the Django admin page, where he can add, edit 
 
 All important actions give feedback to the user in the form of messages, for example after registration, adding a product or signing in.
 
+With help of Django, it was easier to implement the logic part of the project and it's clearly visible in examples like checkout where a user can have already loaded his details from profile or in profile itself where he can find his order history.
+
 ### **Skeleton**
 
-This project is about the Full Stack development - so I decided to focus not only on the Back End and logic part of the website, but Front End as well and tried to built as good design as possible.
+This project is about the Full Stack development - so I decided to focus not only on the Back End and logic part of the website, but Front End as well and tried to built as good looking design as possible.
 
 I intentionally used CSS styling to make interaction with this web application handy, for example with text styling, shadow and hovering effects on buttons, product design and checkout page.
 
@@ -92,9 +94,28 @@ Last but not least, I worked on responsiveness to allow users to use the webpage
 
 I felt that all mentioned above helps to provide the best User Experience and highlight the purpose of this project.
 
-### Colour Scheme
+### Color Scheme
+
+I chose a color palette based around white & black as these colors are elegant and simple to implement into the design. I added green colors for buttons and headings. Additionally, I chose to use other colors for hover effects and box shadowing, however the main palette has been around these colors:
+
+* `#000000` used for primary text or background
+* `#ffffff` used for secondary text or background
+* `#4B8351` used for primary highlights
+* `#787F7E` used for secondary highlights
+
+The colours have been mainly used with help of Bootstrap framework.
+
+![screenshot](documentation/coolors.png)
 
 ### Typography
+
+I decided to use Google font 'Lato' with different font weights throughout the project thanks to its elegance. I left the font 'sans-serif' as a backup font style if anything goes wrong with the Google link. Secondly, I used the Google font 'Metal Mania' for the logo of the website.
+
+* [Lato](https://fonts.google.com/specimen/Lato)
+
+* [Sans-serif](https://fonts.google.com/knowledge/glossary/sans_serif)
+
+* [Metal Mania](https://fonts.google.com/specimen/Metal+Mania)
 
 ## Wireframes
 
@@ -114,6 +135,7 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
+| [Pexels](https://www.pexels.com) | entire site | background image | home page hero image |
 
 ## Database Design
 
