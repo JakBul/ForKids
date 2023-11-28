@@ -336,9 +336,52 @@ I have used [Lucidchart](https://www.lucidchart.com/) to design my site ERD. The
 
 # Testing
 
-I used Google Dev Tools to test the website and its layout. This allowed me to check the responsiveness of the site and quickly debug any issues that I came across.
+I used the Google Developer Tools to test the website and its layout. This allowed me to check the responsiveness of the site and quickly debug any issues that I came across.
 
 ## Code Validation
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate my HTML files. However, I have had a problem with this task..
+
+Python uses Jinja syntax, such as `{% for loops %}`, `{% url 'home' %}`, and `{{ variable|filter }}`, and they will not validate properly if I am copying/pasting into the HTML validator. To properly validate HTML pages with Jinja syntax, I have to use **View Page Source** on each webpage and validate by inputting the entire compiled code.
+
+Even this approach gets some warnings, but most of them were caused by Bootstrap or Jinja template.
+
+| Page | Screenshot | Notes |
+| --- | --- | --- |
+| Home Page | ![screenshot](documentation/html_validation_home_page.png) | |
+| Products Page | ![screenshot](documentation/html_validation_products_page.png) | |
+| Shopping Bag Page | ![screenshot](documentation/html_validation_shopping_bag.png) | Few errors caused by Jinja syntax |
+| Checkout Page | ![screenshot](documentation/html_validation_checkout_page.png) | Few errors caused by Jinja syntax |
+| Profile Page | ![screenshot](documentation/html_validation_profile_page.png) | |
+| Order Confirmation Page | ![screenshot](documentation/html_validation_order_confirmation.png) | |
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate my CSS files.
+
+| File | Jigsaw URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffor-kids-1eb46f197086.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css_validation.png) | Pass with no errors when validated by input. When validated by URI, I am getting too many warnings caused by Bootstrap |
+| profile.css | | ![screenshot](documentation/css_validation_profile_css.png) | Validated by input |
+| checkout.css | | ![screenshot](documentation/css_validation_checkout_css.png) | Validated by input |
+
+### JavaScript
+
+### Python
+
+## Browser Compatibility
+
+## Responsiveness
+
+## Lighthouse Audit
+
+## User Story Testing
+
+## Known bugs and fixes
+
+## Unfixed Bugs
+
+There are no other remaining bugs that I am aware of.
 
 # Deployment
 
