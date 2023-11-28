@@ -19,3 +19,7 @@
     max-height: 416px; /* height of profile form + submit button */
     overflow-y: auto;
 }
+
+.update-btn {
+    margin: 20px 0px 20px 0px;
+}

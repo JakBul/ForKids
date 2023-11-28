@@ -39,7 +39,7 @@ The user goals for this website are:
 
 ### **Strategy**
 
-Considering the core UX principles, first I started to think about the strategy for this project and defined who the target users would be and what features/technologies they would want.
+Considering the core UX principles, as first I started to think about the strategy for this project and defined who the target users would be and what features/technologies they would want.
 
 ForKids target users are kids, adults, parents or collectors. Anyone who loves toys in general and would like to buy them.
 
@@ -82,11 +82,11 @@ A special user 'admin' can access the Django admin page, where he can add, edit 
 
 All important actions give feedback to the user in the form of messages, for example after registration, adding a product or signing in.
 
-With help of Django, it was easier to implement the logic part of the project and it's clearly visible in examples like checkout where a user can have already loaded his details from profile or in profile itself where he can find his order history.
+With help of Django, it was easier to implement the logic part of this project and it's clearly visible in examples like checkout where a user can have his details already loaded from profile, or in 'My Profile' page where he can find his order history and upload the information needed for completing the order.
 
 ### **Skeleton**
 
-This project is about the Full Stack development - so I decided to focus not only on the Back End and logic part of the website, but Front End as well and tried to built as good looking design as possible.
+This project is about the Full Stack development - so I decided to focus not only on the Back End and logic part of the website, but Front End as well and tried to built as good looking page as possible.
 
 I intentionally used CSS styling to make interaction with this web application handy, for example with text styling, shadow and hovering effects on buttons, product design and checkout page.
 
@@ -124,6 +124,81 @@ To follow the best practices, wireframes were developed for mobile, tablet, and 
 ## Features
 
 ### Existing Features
+
+* **Home Page**
+
+'Home Page' contains the navigation menu on the top with the logo, searchbar for the user to use, links to the account and shopping bag. I decided to use the hero image with call-to-action button in the middle that opens the products page. As the last piece, there is the footer on the bottom of the page which contains the social media links.
+
+![screenshot](documentation/mockup.png)
+
+* **Searchbar**
+
+In the middle of the navigation panel (when using desktop view, otherwise as an icon shown in the next feature) is placed the search bar which is meant to help people to search through the products on the webpage. In the example below, I tried to find the 'cards' and it showed me result with cards as the product/category name or in description.
+
+![screenshot](documentation/use_search.png)
+
+* **Navigation Panel**
+
+As part of the responsive design, I have to be sure that the navigation is always visible and accessible to the user. That's why I used the dynamic navbar from Bootstrap. It follows the chosen UX principles and adds a nice touch when the user uses a smaller device. The best point is that all the features remains accessible to the user at anytime.
+
+![screenshot](documentation/nav_panel.png)
+
+* **Products Page**
+
+![screenshot](documentation/products_page.png)
+
+* **Product Details Page**
+
+![screenshot](documentation/product_details_page.png)
+
+* **Messages**
+
+![screenshot](documentation/messages.png)
+
+* **Shopping Bag Page**
+
+![screenshot](documentation/shopping_bag_page.png)
+
+* **Checkout Page**
+
+![screenshot](documentation/checkout_page.png)
+
+* **Webhook Handler**
+
+![screenshot](documentation/webhook_handler.png)
+
+* **Order Confirmation Page**
+
+![screenshot](documentation/order_confirmation.png)
+![screenshot](documentation/stripe_payment.png)
+
+* **Sign In Page**
+
+When the user is already registered, he can sign in using this page. The path for signing in goes through My Account button in the navigation panel.
+
+![screenshot](documentation/sign_in_page.png)
+
+* **Sign Up Page**
+
+![screenshot](documentation/sign_up_page.png)
+
+* **Profile Page**
+
+![screenshot](documentation/profile_page.png)
+
+* **Product Management Page**
+
+![screenshot](documentation/product_management_page.png)
+
+* **Django Admin**
+
+![screenshot](documentation/django_admin.png)
+
+* **Favicon**
+
+As a rule of thumb, I added the Favicon which relates to the topic of the project.
+
+![screenshot](documentation/favicon.png)
 
 ### Future Features
 
