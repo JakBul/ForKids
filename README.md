@@ -15,25 +15,25 @@ The business goals for this website are:
 
 The user goals for this website are:
 
-| As a/an... | I want to be able to... | so that I can... |
-| --- | --- | --- |
-| website visitor | view products | select one to buy |
-| | check every individual product details | identify the price, description, product rating or image |
-| | see the total cost of my shopping at any time | avoid spending too much |
-| | sort the products | easily identify the best rated, best priced or categorically sorted products |
-| | search for a product by a name or description | find a specific product |
-| | view items that I want to buy in my bag | check the total cost and all selected products |
-| | adjust the quantity or items in my bag | easily make changes before checkout |
-| | safely enter my payment and personal information | checkout quickly without any problems |
-| | view an order confirmation after checkout | verify that I have not made any mistakes |
-| | receive an email confirmation after checking out | keep the confirmation of the purchase |
-| site user | easily register for an account | have a personal profile |
-| | login, logout, or recover my password | access or recover my personal account information |
-| | have a personalized user profile | view my order history or order confirmations |
-| administrator | add products | add new items to my store |
-| | edit a product | change product information |
-| | delete a product | remove items that are no longer for sale |
-| | check list of completed orders and users | have feedback of the website processes |
+| As a/an...      | I want to be able to...                          | so that I can...                                                             |
+| --------------- | ------------------------------------------------ | ---------------------------------------------------------------------------- |
+| website visitor | view products                                    | select one to buy                                                            |
+|                 | check every individual product details           | identify the price, description, product rating or image                     |
+|                 | see the total cost of my shopping at any time    | avoid spending too much                                                      |
+|                 | sort the products                                | easily identify the best rated, best priced or categorically sorted products |
+|                 | search for a product by a name or description    | find a specific product                                                      |
+|                 | view items that I want to buy in my bag          | check the total cost and all selected products                               |
+|                 | adjust the quantity or items in my bag           | easily make changes before checkout                                          |
+|                 | safely enter my payment and personal information | checkout quickly without any problems                                        |
+|                 | view an order confirmation after checkout        | verify that I have not made any mistakes                                     |
+|                 | receive an email confirmation after checking out | keep the confirmation of the purchase                                        |
+| site user       | easily register for an account                   | have a personal profile                                                      |
+|                 | login, logout, or recover my password            | access or recover my personal account information                            |
+|                 | have a personalized user profile                 | view my order history or order confirmations                                 |
+| administrator   | add products                                     | add new items to my store                                                    |
+|                 | edit a product                                   | change product information                                                   |
+|                 | delete a product                                 | remove items that are no longer for sale                                     |
+|                 | check list of completed orders and users         | have feedback of the website processes                                       |
 
 ## UX
 
@@ -45,15 +45,15 @@ ForKids target users are kids, adults, parents or collectors. Anyone who loves t
 
 And now the question is - what would be these users looking for? The answers I found were:
 
-* Clear navigation which is easy to follow
-* Good looking design which makes the website look desirable
-* Possibility to register, login and create the profile
-* View products and sort them through multiple options, such as price or rating
-* View products details
-* Possibility to search through products
-* Pay safely for products in a shopping bag
-* Get a confirmation of their purchase
-* Access to social media links to follow the news
+- Clear navigation which is easy to follow
+- Good looking design which makes the website look desirable
+- Possibility to register, login and create the profile
+- View products and sort them through multiple options, such as price or rating
+- View products details
+- Possibility to search through products
+- Pay safely for products in a shopping bag
+- Get a confirmation of their purchase
+- Access to social media links to follow the news
 
 This project has been built to offer all of the named things. An extra effort was taken to provide an intuitive interaction for every user visiting the webpage.
 
@@ -61,15 +61,15 @@ This project has been built to offer all of the named things. An extra effort wa
 
 To achieve the desired user and business goals, the following features will be included in this release:
 
-* 'Home' page with logo, navigation panel and search bar, hero image with information, call up button to check the available products, and also including the footer with social media links as well
-* 'Products' page where the user can search through the shop by the navigation panel, search bar or sorting options
-* Every product has it's details page which contains information such as category, rating, image, description. It can be opened upon clicking on the product
-* The product detail includes the button 'Add to Bag' which will add the product to the shopping bag of the user
-* 'Shopping Bag' page which shows the chosen products to buy, their price, delivery costs and the grand total
-* 'Checkout' page which contains form to fill with the customer information, order summary and payment form
-* 'Confirmation' page which shows up after the checkout was successfully done with order summary and confirmation
-* 'Profile' page where users can save their delivery information for faster shopping and check order history
-* 'Product management' page for an admin only to add products
+- 'Home' page with logo, navigation panel and search bar, hero image with information, call up button to check the available products, and also including the footer with social media links as well
+- 'Products' page where the user can search through the shop by the navigation panel, search bar or sorting options
+- Every product has it's details page which contains information such as category, rating, image, description. It can be opened upon clicking on the product
+- The product detail includes the button 'Add to Bag' which will add the product to the shopping bag of the user
+- 'Shopping Bag' page which shows the chosen products to buy, their price, delivery costs and the grand total
+- 'Checkout' page which contains form to fill with the customer information, order summary and payment form
+- 'Confirmation' page which shows up after the checkout was successfully done with order summary and confirmation
+- 'Profile' page where users can save their delivery information for faster shopping and check order history
+- 'Product management' page for an admin only to add products
 
 ### **Structure**
 
@@ -96,10 +96,10 @@ Last but not least, I worked on responsiveness to allow users to use the webpage
 
 I chose a color palette based around white & black as these colors are elegant and simple to implement into the design. I added green colors for buttons and headings. Additionally, I chose to use other colors for hover effects and box shadowing, however the main palette has been around these colors:
 
-* `#000000` used for primary text or background
-* `#ffffff` used for secondary text or background
-* `#4B8351` used for primary highlights
-* `#787F7E` used for secondary highlights
+- `#000000` used for primary text or background
+- `#ffffff` used for secondary text or background
+- `#4B8351` used for primary highlights
+- `#787F7E` used for secondary highlights
 
 The colours have been mainly used with help of Bootstrap framework.
 
@@ -109,51 +109,57 @@ The colours have been mainly used with help of Bootstrap framework.
 
 I decided to use Google font 'Lato' with different font weights throughout the project thanks to its elegance. I left the font 'sans-serif' as a backup font style if anything goes wrong with the Google link. Secondly, I used the Google font 'Metal Mania' for the logo of the website.
 
-* [Lato](https://fonts.google.com/specimen/Lato)
+- [Lato](https://fonts.google.com/specimen/Lato)
 
-* [Sans-serif](https://fonts.google.com/knowledge/glossary/sans_serif)
+- [Sans-serif](https://fonts.google.com/knowledge/glossary/sans_serif)
 
-* [Metal Mania](https://fonts.google.com/specimen/Metal+Mania)
+- [Metal Mania](https://fonts.google.com/specimen/Metal+Mania)
 
 ## Wireframes
 
-To follow the best practices, wireframes were developed for mobile, tablet, and desktop sizes.
+To follow the best practices, wireframes were developed for mobile, tablet, and desktop sizes. I've used [Balsamiq](https://balsamiq.com/wireframes) to design my page wireframes.
+
+| Page | Screenshot |
+| --- | --- |
+| Home Page | ![screenshot](documentation/wireframes_home_page.png) |
+| Products Page | ![screenshot](documentation/wireframes_products_page.png) |
+| Shopping Bag Page | ![screenshot](documentation/wireframes_shopping_bag.png) |
 
 ## Features
 
 ### Existing Features
 
-* **Home Page**
+- **Home Page**
 
 'Home Page' contains the navigation menu on the top with the logo, searchbar for the user to use, links to the account and shopping bag. I decided to use the hero image with call-to-action button in the middle that opens the products page. As the last piece, there is the footer on the bottom of the page which contains the social media links.
 
 ![screenshot](documentation/mockup.png)
 
-* **Searchbar**
+- **Searchbar**
 
 In the middle of the navigation panel (when using desktop view, otherwise as an icon shown in the next feature) is placed the search bar which is meant to help people to search through the products on the webpage. In the example below, I tried to find the 'cards' and it showed me the result with cards as the product/category name or in description.
 
 ![screenshot](documentation/use_search.png)
 
-* **Navigation Panel**
+- **Navigation Panel**
 
 As part of the responsive design, I have to be sure that the navigation is always visible and accessible to the user. That's why I used the dynamic navbar from Bootstrap. It follows the chosen UX principles and adds a nice touch when the user uses a smaller device. The best point is that all the features remains accessible to the user at anytime.
 
 ![screenshot](documentation/nav_panel.png)
 
-* **Products Page**
+- **Products Page**
 
 'Products Page' contains all off the products available for the user to buy. The products can be sorted either by category using the navigation menu, or by price, rating, name and category using the built in 'Sort by..' element on the left side. Each product shows image and information such as name, rating, price and category. The admin has a special option to either Edit or Delete each product via the special buttons visible only to him when signed in.
 
 ![screenshot](documentation/products_page.png)
 
-* **Product Details Page**
+- **Product Details Page**
 
 'Product Details Page' opens after clicking upon the product on the Products Page. That's the place where the user can get even more information about the product by reading the description and get the product to the shopping bag. An extra button 'Keep Shopping' is provided to get the user easily back to the products browsing.
 
 ![screenshot](documentation/product_details_page.png)
 
-* **Messages**
+- **Messages**
 
 The messages are generated by Python and provide additional feedback to the user interaction, for example after adding a product to the shopping bag, successful checkout order or registration. They are always under the navigation panel to make sure they are visible either for desktop or phones.
 
@@ -161,7 +167,7 @@ In the screenshot below, I have added the product to the shopping bag and the me
 
 ![screenshot](documentation/messages.png)
 
-* **Shopping Bag Page**
+- **Shopping Bag Page**
 
 'Shopping Bag Page' contains all users chosen products, their images, prices and quantities. This page can be opened by clicking on the Shopping Bag logo in the navigation menu (highlighted by different boldness and color via CSS), or by clicking to 'Secure Checkout' on the Products details page/message window.
 
@@ -169,7 +175,7 @@ I have added an option to either 'Update' the quantity or 'Remove' the product f
 
 ![screenshot](documentation/shopping_bag_page.png)
 
-* **Checkout Page**
+- **Checkout Page**
 
 'Checkout Page' is divided into two parts. One part contains the users details, his name, email address (where the confirmation will be sent) and delivery information. By the way, this information can be set up in the My Profile page which will be shown in an additional feature. I have decided to implement this solution to give the user an option to buy products faster without repeating the process of writing the same information into the form. Second part contains the order summary - the same as in the Shopping Bag Page.
 
@@ -177,7 +183,7 @@ After filling the form and adding the payment details, the order is completed. I
 
 ![screenshot](documentation/checkout_page.png)
 
-* **Webhook Handler**
+- **Webhook Handler**
 
 A webhook is an HTTP endpoint that receives events from Stripe. Webhooks allow me to be notified about payment events that happen in the real world outside of my payment flow. For example, if the payment goes wrong because of insufficient fund or lost connection, I will be notified and the order will be cancelled.
 
@@ -185,40 +191,40 @@ After completing the order, the user should see the loading overlay for a few se
 
 ![screenshot](documentation/webhook_handler.png)
 
-* **Order Confirmation Page**
+- **Order Confirmation Page**
 
 As explained above, when everything runs good and without any interuptions, order will be completed and the order confirmation will be created. On this page, the user can see the special order number, order date and order summary. As well, the message is created to send an additional feedback to the user. By the way, the same order confirmation will be accessible when user is logged in. It will get saved into his My Profile page so he could find the order confirmation whenever needed.
 
-I add another screenshot that shows our test purchase has been verified by Stripe. 
+I add another screenshot that shows our test purchase has been verified by Stripe.
 
 ![screenshot](documentation/order_confirmation.png)
 ![screenshot](documentation/stripe_payment.png)
 
-* **Sign In Page**
+- **Sign In Page**
 
 When the user is already registered, he can sign in using this page. The path for signing in goes through My Account button in the navigation panel.
 
 ![screenshot](documentation/sign_in_page.png)
 
-* **Sign Up Page**
+- **Sign Up Page**
 
 This is page where users can register in order to create the profile on our webpage. All the program need is e-mail address, chosen username and password. The user should get notification e-mail to verify their e-mail address.
 
 ![screenshot](documentation/sign_up_page.png)
 
-* **Profile Page**
+- **Profile Page**
 
 As mentioned above, 'Profile Page' contains two sections of delivery information and order history. The delivery information can be either updated here and saved for future, or saved while completing an order and it will be saved automatically. The order history is created to get access to order confirmations.
 
 ![screenshot](documentation/profile_page.png)
 
-* **Product Management Page**
+- **Product Management Page**
 
 'Product Management Page' works only for the admin user and it's a part of CRUD functionality - Create, Read, Update and Delete. Here the admin can Create - Add a product to the store. The Read part is available on the products page, Update and Delete too.
 
 ![screenshot](documentation/product_management_page.png)
 
-* **Django Admin**
+- **Django Admin**
 
 The Django admin application can use my models to automatically build a site area that I can use to create, view, update, and delete records. This saved me a lot of time during development, made it very easy to test my models and got a feel for whether I have the right data.
 
@@ -226,53 +232,69 @@ In the example below, I could easily find the order created while writing this F
 
 ![screenshot](documentation/django_admin.png)
 
-* **Favicon**
+- **Favicon**
 
 As a rule of thumb, I added the Favicon which relates to the topic of the project.
 
 ![screenshot](documentation/favicon.png)
 
-* **404/500 Error Message**
+- **404/500 Error Message**
 
 When anything goes wrong with the links, server or website, the 404/500 page pops up to make sure it leads users to the 'Home Page' by clicking on the button. Alternatively, users can use the navigation panel to visit another part of the website.
 
-![screenshot]()
+![screenshot](documentation/404.png)
 
 ### Future Features
 
+- **Upload more Products**
+
+There is many ways how to improve the product base. It's not only about quantity, but adding hot products with a good marketing could be the best move. I believe that with more developing time I could play with recommended products, top rated, today's deals and so on.
+
+- **Improve UX/UI**
+
+The whole design is currently on point. It has been developed in a simple way to work properly on any screen sizes. However, every good e-commerce project could be improved with advance reactJS framework by adding improved layout. This is a must!
+
+- **Adding necessary documentation**
+
+If I sell products or services online, my ecommerce business must include the legal documents like an up-to-date, easy to find and easily accessible Privacy Policy. a Cookie Policy (if I use cookies) a Terms and Conditions document. It's necessary to add them before getting really into business.
+
+I am also wondering about ideas around e-mail marketing or creating a blog using Django CMS.
+
 ## Tools & Technologies Used
 
-* [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content
-* [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) used for user interaction on the site
-* [Python](https://www.python.org) used as the back-end programming language
-* [Django](https://www.djangoproject.com) used as the Python framework for the site
-* [Git](https://git-scm.com) used for version control (`git add`, `git commit`, `git push`)
-* [GitHub](https://github.com) used for secure online code storage
-* [Heroku](https://heroku.com) used for hosting the deployed back-end site
-* [CodeAnywhere](https://codeanywhere.com) used as a cloud-based IDE for the development
-* [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components
-* [Font Awesome](https://fontawesome.com/) used to obtain the media icons
-* [Google Fonts](https://fonts.google.com/) used to obtain the fonts linked in the header and used in the project
-* [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project
-* [Grammarly](https://www.grammarly.com/) used to fix the thousands of grammar errors across the project
-* [Coloors](https://coolors.co/) used to create a color palette for the design
-* [W3C Markup Validation Service](https://validator.w3.org/) used to validate all HTML code written and used on this webpage
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) used to validate all CSS code written and used on this webpage
-* [JSHint](https://jshint.com/) used to validate all JS code written and used on this webpage
-* [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) used to validate all of my Python files
-* [Lucid](https://www.lucidchart.com/pages/examples/er-diagram-tool) used to design the database ER diagram
-* [PostgreSQL](https://www.postgresql.org) used as the relational database management
-* [ElephantSQL](https://www.elephantsql.com) used as the Postgres database
-* [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services
-* [AWS S3](https://aws.amazon.com/s3) used for online static file storage
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript) used for user interaction on the site
+- [Python](https://www.python.org) used as the back-end programming language
+- [Django](https://www.djangoproject.com) used as the Python framework for the site
+- [Git](https://git-scm.com) used for version control (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage
+- [Heroku](https://heroku.com) used for hosting the deployed back-end site
+- [CodeAnywhere](https://codeanywhere.com) used as a cloud-based IDE for the development
+- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components
+- [Font Awesome](https://fontawesome.com/) used to obtain the media icons
+- [Google Fonts](https://fonts.google.com/) used to obtain the fonts linked in the header and used in the project
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools) used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project
+- [Grammarly](https://www.grammarly.com/) used to fix the thousands of grammar errors across the project
+- [Coloors](https://coolors.co/) used to create a color palette for the design
+- [W3C Markup Validation Service](https://validator.w3.org/) used to validate all HTML code written and used on this webpage
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) used to validate all CSS code written and used on this webpage
+- [JSHint](https://jshint.com/) used to validate all JS code written and used on this webpage
+- [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) used to validate all of my Python files
+- [Lucid](https://www.lucidchart.com/pages/examples/er-diagram-tool) used to design the database ER diagram
+- [Balsamiq](https://balsamiq.com/wireframes) used to design the wireframes
+- [PostgreSQL](https://www.postgresql.org) used as the relational database management
+- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database
+- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services
+- [AWS S3](https://aws.amazon.com/s3) used for online static file storage
+- [Pexels](https://www.pexels.com) used to download the needed media
 
 ## Media
 
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
-| from [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Pexels](https://www.pexels.com/photo/toy-military-vehicles-5257289/) | home page | background image | hero image |
+| Source                                                                | Location    | Type             | Notes                |
+| --------------------------------------------------------------------- | ----------- | ---------------- | -------------------- |
+| from [Pexels](https://www.pexels.com)                                 | entire site | image            | favicon on all pages |
+| [Pexels](https://www.pexels.com/photo/toy-military-vehicles-5257289/) | home page   | background image | hero image           |
 
 ## Database Design
 
@@ -295,24 +317,28 @@ class Product(models.Model):
         return self.name
 ```
 
-* Table: **Product**
+- Table: **Product**
 
-    | **PK** | **id** (unique) | Type | Notes |
-    | --- | --- | --- | --- |
-    | **FK** | category | ForeignKey | FK to **Category** model |
-    | | sku | CharField | |
-    | | name | CharField | |
-    | | description | TextField | |
-    | | price | DecimalField | |
-    | | rating | DecimalField | |
-    | | image_url | URLField | |
-    | | image | ImageField | |
+  | **PK** | **id** (unique) | Type         | Notes                    |
+  | ------ | --------------- | ------------ | ------------------------ |
+  | **FK** | category        | ForeignKey   | FK to **Category** model |
+  |        | sku             | CharField    |                          |
+  |        | name            | CharField    |                          |
+  |        | description     | TextField    |                          |
+  |        | price           | DecimalField |                          |
+  |        | rating          | DecimalField |                          |
+  |        | image_url       | URLField     |                          |
+  |        | image           | ImageField   |                          |
 
 I have used [Lucidchart](https://www.lucidchart.com/) to design my site ERD. The entire data schema is shown in the screenshot below:
 
 ![screenshot](documentation/erd.png)
 
 # Testing
+
+I used Google Dev Tools to test the website and its layout. This allowed me to check the responsiveness of the site and quickly debug any issues that I came across.
+
+## Code Validation
 
 # Deployment
 
@@ -324,12 +350,12 @@ This project uses [ElephantSQL](https://www.elephantsql.com) for the PostgreSQL 
 
 To obtain your own Postgres Database, sign-up with your GitHub account, then follow these steps:
 
-* Click **Create New Instance** to start a new database.
-* Provide a name (this is commonly the name of the project: ForKids).
-* Select the **Tiny Turtle (Free)** plan.
-* You can leave the **Tags** blank.
-* Select the **Region** and **Data Center** closest to you.
-* Once created, click on the new database name, where you can view the database URL and Password.
+- Click **Create New Instance** to start a new database.
+- Provide a name (this is commonly the name of the project: ForKids).
+- Select the **Tiny Turtle (Free)** plan.
+- You can leave the **Tags** blank.
+- Select the **Region** and **Data Center** closest to you.
+- Once created, click on the new database name, where you can view the database URL and Password.
 
 ### Amazon AWS
 
@@ -340,123 +366,126 @@ Make sure you're on the **AWS Management Console** page.
 
 #### S3 Bucket
 
-* Search for **S3**.
-* Create a new bucket, give it a name (matching your Heroku app name), and choose the region closest to you.
-* Uncheck **Block all public access**, and acknowledge that the bucket will be public (required for it to work on Heroku).
-* From **Object Ownership**, make sure to have **ACLs enabled**, and **Bucket owner preferred** selected.
-* From the **Properties** tab, turn on static website hosting, and type `index.html` and `error.html` in their respective fields, then click **Save**.
-* From the **Permissions** tab, paste in the following CORS configuration:
+- Search for **S3**.
+- Create a new bucket, give it a name (matching your Heroku app name), and choose the region closest to you.
+- Uncheck **Block all public access**, and acknowledge that the bucket will be public (required for it to work on Heroku).
+- From **Object Ownership**, make sure to have **ACLs enabled**, and **Bucket owner preferred** selected.
+- From the **Properties** tab, turn on static website hosting, and type `index.html` and `error.html` in their respective fields, then click **Save**.
+- From the **Permissions** tab, paste in the following CORS configuration:
 
-	```shell
-	[
-		{
-			"AllowedHeaders": [
-				"Authorization"
-			],
-			"AllowedMethods": [
-				"GET"
-			],
-			"AllowedOrigins": [
-				"*"
-			],
-			"ExposeHeaders": []
-		}
-	]
-	```
+  ```shell
+  [
+  	{
+  		"AllowedHeaders": [
+  			"Authorization"
+  		],
+  		"AllowedMethods": [
+  			"GET"
+  		],
+  		"AllowedOrigins": [
+  			"*"
+  		],
+  		"ExposeHeaders": []
+  	}
+  ]
+  ```
 
-* Copy your **ARN** string.
-* From the **Bucket Policy** tab, select the **Policy Generator** link, and use the following steps:
-  * Policy Type: **S3 Bucket Policy**
-  * Effect: **Allow**
-  * Principal: `*`
-  * Actions: **GetObject**
-  * Amazon Resource Name (ARN): **paste-your-ARN-here**
-  * Click **Add Statement**
-  * Click **Generate Policy**
-  * Copy the entire Policy, and paste it into the **Bucket Policy Editor**
+- Copy your **ARN** string.
+- From the **Bucket Policy** tab, select the **Policy Generator** link, and use the following steps:
 
-		```shell
-		{
-			"Id": "Policy1234567890",
-			"Version": "2012-10-17",
-			"Statement": [
-				{
-					"Sid": "Stmt1234567890",
-					"Action": [
-						"s3:GetObject"
-					],
-					"Effect": "Allow",
-					"Resource": "arn:aws:s3:::your-bucket-name/*"
-					"Principal": "*",
-				}
-			]
-		}
-		```
+  - Policy Type: **S3 Bucket Policy**
+  - Effect: **Allow**
+  - Principal: `*`
+  - Actions: **GetObject**
+  - Amazon Resource Name (ARN): **paste-your-ARN-here**
+  - Click **Add Statement**
+  - Click **Generate Policy**
+  - Copy the entire Policy, and paste it into the **Bucket Policy Editor**
 
-  * Before you click "Save", add `/*` to the end of the Resource key in the Bucket Policy Editor (like above).
-  * Click **Save**.
+    ```shell
+    {
+    	"Id": "Policy1234567890",
+    	"Version": "2012-10-17",
+    	"Statement": [
+    		{
+    			"Sid": "Stmt1234567890",
+    			"Action": [
+    				"s3:GetObject"
+    			],
+    			"Effect": "Allow",
+    			"Resource": "arn:aws:s3:::your-bucket-name/*"
+    			"Principal": "*",
+    		}
+    	]
+    }
+    ```
 
-* From the **Access Control List (ACL)** section, click "Edit" and enable **List** for **Everyone (public access)**, and accept the warning box.
-  * If the edit button is disabled, you need to change the **Object Ownership** section above to **ACLs enabled** (mentioned above).
+  - Before you click "Save", add `/*` to the end of the Resource key in the Bucket Policy Editor (like above).
+  - Click **Save**.
+
+- From the **Access Control List (ACL)** section, click "Edit" and enable **List** for **Everyone (public access)**, and accept the warning box.
+  - If the edit button is disabled, you need to change the **Object Ownership** section above to **ACLs enabled** (mentioned above).
 
 #### IAM
 
 Back on the AWS Services Menu, search for and open **IAM** (Identity and Access Management).
 Once on the IAM page, follow these steps:
 
-* From **User Groups**, click **Create New Group**.
-  * Suggested Name: `group-forkids` (group + the project name)
-* Tags are optional, but you must click it to get to the **review policy** page.
-* From **User Groups**, select your newly created group, and go to the **Permissions** tab.
-* Open the **Add Permissions** dropdown, and click **Attach Policies**.
-* Select the policy, then click **Add Permissions** at the bottom when finished.
-* From the **JSON** tab, select the **Import Managed Policy** link.
-  * Search for **S3**, select the `AmazonS3FullAccess` policy, and then **Import**.
-  * You'll need your ARN from the S3 Bucket copied again, which is pasted into "Resources" key on the Policy.
+- From **User Groups**, click **Create New Group**.
+  - Suggested Name: `group-forkids` (group + the project name)
+- Tags are optional, but you must click it to get to the **review policy** page.
+- From **User Groups**, select your newly created group, and go to the **Permissions** tab.
+- Open the **Add Permissions** dropdown, and click **Attach Policies**.
+- Select the policy, then click **Add Permissions** at the bottom when finished.
+- From the **JSON** tab, select the **Import Managed Policy** link.
 
-		```shell
-		{
-			"Version": "2012-10-17",
-			"Statement": [
-				{
-					"Effect": "Allow",
-					"Action": "s3:*",
-					"Resource": [
-						"arn:aws:s3:::your-bucket-name",
-						"arn:aws:s3:::your-bucket-name/*"
-					]
-				}
-			]
-		}
-		```
+  - Search for **S3**, select the `AmazonS3FullAccess` policy, and then **Import**.
+  - You'll need your ARN from the S3 Bucket copied again, which is pasted into "Resources" key on the Policy.
 
-  * Click **Review Policy**.
-  * Suggested Name: `policy-forkids` (policy + the project name)
-  * Provide a description:
-    * "Access to S3 Bucket for forkids static files."
-  * Click **Create Policy**.
-* From **User Groups**, click your "group-forkids".
-* Click **Attach Policy**.
-* Search for the policy you've just created ("policy-forkids") and select it, then **Attach Policy**.
-* From **User Groups**, click **Add User**.
-  * Suggested Name: `user-forkids` (user + the project name)
-* For "Select AWS Access Type", select **Programmatic Access**.
-* Select the group to add your new user to: `group-forkids`
-* Tags are optional, but you must click it to get to the **review user** page.
-* Click **Create User** once done.
-* You should see a button to **Download .csv**, so click it to save a copy on your system.
-  * **IMPORTANT**: once you pass this page, you cannot come back to download it again, so do it immediately!
-  * This contains the user's **Access key ID** and **Secret access key**.
-  * `AWS_ACCESS_KEY_ID` = **Access key ID**
-  * `AWS_SECRET_ACCESS_KEY` = **Secret access key**
+    ```shell
+    {
+    	"Version": "2012-10-17",
+    	"Statement": [
+    		{
+    			"Effect": "Allow",
+    			"Action": "s3:*",
+    			"Resource": [
+    				"arn:aws:s3:::your-bucket-name",
+    				"arn:aws:s3:::your-bucket-name/*"
+    			]
+    		}
+    	]
+    }
+    ```
+
+  - Click **Review Policy**.
+  - Suggested Name: `policy-forkids` (policy + the project name)
+  - Provide a description:
+    - "Access to S3 Bucket for forkids static files."
+  - Click **Create Policy**.
+
+- From **User Groups**, click your "group-forkids".
+- Click **Attach Policy**.
+- Search for the policy you've just created ("policy-forkids") and select it, then **Attach Policy**.
+- From **User Groups**, click **Add User**.
+  - Suggested Name: `user-forkids` (user + the project name)
+- For "Select AWS Access Type", select **Programmatic Access**.
+- Select the group to add your new user to: `group-forkids`
+- Tags are optional, but you must click it to get to the **review user** page.
+- Click **Create User** once done.
+- You should see a button to **Download .csv**, so click it to save a copy on your system.
+  - **IMPORTANT**: once you pass this page, you cannot come back to download it again, so do it immediately!
+  - This contains the user's **Access key ID** and **Secret access key**.
+  - `AWS_ACCESS_KEY_ID` = **Access key ID**
+  - `AWS_SECRET_ACCESS_KEY` = **Secret access key**
 
 #### Final AWS Setup
 
-* If Heroku Config Vars has `DISABLE_COLLECTSTATIC` still, this can be removed now, so that AWS will handle the static files.
-* Back within **S3**, create a new folder called: `media`.
-* Select any existing media images for your project to prepare them for being uploaded into the new folder.
-* Under **Manage Public Permissions**, select **Grant public read access to this object(s)**.
-* No further settings are required, so click **Upload**.
+- If Heroku Config Vars has `DISABLE_COLLECTSTATIC` still, this can be removed now, so that AWS will handle the static files.
+- Back within **S3**, create a new folder called: `media`.
+- Select any existing media images for your project to prepare them for being uploaded into the new folder.
+- Under **Manage Public Permissions**, select **Grant public read access to this object(s)**.
+- No further settings are required, so click **Upload**.
 
 ### Stripe API
 
@@ -464,20 +493,20 @@ This project uses [Stripe](https://stripe.com) to handle the ecommerce payments.
 
 Once you've created a Stripe account and logged-in, follow these series of steps to get your project connected.
 
-* From your Stripe dashboard, click to expand the "Get your test API keys".
-* You'll have two keys here:
-  * `STRIPE_PUBLIC_KEY` = Publishable Key (starts with **pk**)
-  * `STRIPE_SECRET_KEY` = Secret Key (starts with **sk**)
+- From your Stripe dashboard, click to expand the "Get your test API keys".
+- You'll have two keys here:
+  - `STRIPE_PUBLIC_KEY` = Publishable Key (starts with **pk**)
+  - `STRIPE_SECRET_KEY` = Secret Key (starts with **sk**)
 
 As a backup, in case users prematurely close the purchase-order page during payment, we can include Stripe Webhooks.
 
-* From your Stripe dashboard, click **Developers**, and select **Webhooks**.
-* From there, click **Add Endpoint**.
-  * `https://for-kids-1eb46f197086.herokuapp.com/checkout/wh/`
-* Click **receive all events**.
-* Click **Add Endpoint** to complete the process.
-* You'll have a new key here:
-  * `STRIPE_WH_SECRET` = Signing Secret (Wehbook) Key (starts with **wh**)
+- From your Stripe dashboard, click **Developers**, and select **Webhooks**.
+- From there, click **Add Endpoint**.
+  - `https://for-kids-1eb46f197086.herokuapp.com/checkout/wh/`
+- Click **receive all events**.
+- Click **Add Endpoint** to complete the process.
+- You'll have a new key here:
+  - `STRIPE_WH_SECRET` = Signing Secret (Wehbook) Key (starts with **wh**)
 
 ### Gmail API
 
@@ -485,21 +514,21 @@ This project uses [Gmail](https://mail.google.com) to handle sending emails to u
 
 Once you've created a Gmail (Google) account and logged-in, follow these series of steps to get your project connected.
 
-* Click on the **Account Settings** (cog icon) in the top-right corner of Gmail.
-* Click on the **Accounts and Import** tab.
-* Within the section called "Change account settings", click on the link for **Other Google Account settings**.
-* From this new page, select **Security** on the left.
-* Select **2-Step Verification** to turn it on. (verify your password and account)
-* Once verified, select **Turn On** for 2FA.
-* Navigate back to the **Security** page, and you'll see a new option called **App passwords**.
-* This might prompt you once again to confirm your password and account.
-* Select **Mail** for the app type.
-* Select **Other (Custom name)** for the device type.
-  * Any custom name, such as "Django" or ForKids
-* You'll be provided with a 16-character password (API key).
-  * Save this somewhere locally, as you cannot access this key again later!
-  * `EMAIL_HOST_PASS` = user's 16-character API key
-  * `EMAIL_HOST_USER` = user's own personal Gmail email address
+- Click on the **Account Settings** (cog icon) in the top-right corner of Gmail.
+- Click on the **Accounts and Import** tab.
+- Within the section called "Change account settings", click on the link for **Other Google Account settings**.
+- From this new page, select **Security** on the left.
+- Select **2-Step Verification** to turn it on. (verify your password and account)
+- Once verified, select **Turn On** for 2FA.
+- Navigate back to the **Security** page, and you'll see a new option called **App passwords**.
+- This might prompt you once again to confirm your password and account.
+- Select **Mail** for the app type.
+- Select **Other (Custom name)** for the device type.
+  - Any custom name, such as "Django" or ForKids
+- You'll be provided with a 16-character password (API key).
+  - Save this somewhere locally, as you cannot access this key again later!
+  - `EMAIL_HOST_PASS` = user's 16-character API key
+  - `EMAIL_HOST_USER` = user's own personal Gmail email address
 
 ### Heroku Deployment
 
@@ -507,54 +536,54 @@ This project uses [Heroku](https://www.heroku.com), a platform as a service (Paa
 
 Deployment steps are as follows, after account setup:
 
-* Select **New** in the top-right corner of your Heroku Dashboard, and select **Create new app** from the dropdown menu.
-* Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select **Create App**.
-* From the new app **Settings**, click **Reveal Config Vars**, and set your environment variables.
+- Select **New** in the top-right corner of your Heroku Dashboard, and select **Create new app** from the dropdown menu.
+- Your app name must be unique, and then choose a region closest to you (EU or USA), and finally, select **Create App**.
+- From the new app **Settings**, click **Reveal Config Vars**, and set your environment variables.
 
-| Key | Value |
-| --- | --- |
-| `AWS_ACCESS_KEY_ID` | user's own value |
-| `AWS_SECRET_ACCESS_KEY` | user's own value |
-| `DATABASE_URL` | user's own value |
-| `DISABLE_COLLECTSTATIC` | 1 (*this is temporary, and can be removed for the final deployment*) |
-| `EMAIL_HOST_PASS` | user's own value |
-| `EMAIL_HOST_USER` | user's own value |
-| `SECRET_KEY` | user's own value |
-| `STRIPE_PUBLIC_KEY` | user's own value |
-| `STRIPE_SECRET_KEY` | user's own value |
-| `STRIPE_WH_SECRET` | user's own value |
-| `USE_AWS` | True |
+| Key                     | Value                                                                |
+| ----------------------- | -------------------------------------------------------------------- |
+| `AWS_ACCESS_KEY_ID`     | user's own value                                                     |
+| `AWS_SECRET_ACCESS_KEY` | user's own value                                                     |
+| `DATABASE_URL`          | user's own value                                                     |
+| `DISABLE_COLLECTSTATIC` | 1 (_this is temporary, and can be removed for the final deployment_) |
+| `EMAIL_HOST_PASS`       | user's own value                                                     |
+| `EMAIL_HOST_USER`       | user's own value                                                     |
+| `SECRET_KEY`            | user's own value                                                     |
+| `STRIPE_PUBLIC_KEY`     | user's own value                                                     |
+| `STRIPE_SECRET_KEY`     | user's own value                                                     |
+| `STRIPE_WH_SECRET`      | user's own value                                                     |
+| `USE_AWS`               | True                                                                 |
 
 Heroku needs two additional files in order to deploy properly.
 
-* requirements.txt
-* Procfile
+- requirements.txt
+- Procfile
 
 You can install this project's **requirements** (where applicable) using:
 
-* `pip3 install -r requirements.txt`
+- `pip3 install -r requirements.txt`
 
 If you have your own packages that have been installed, then the requirements file needs updated using:
 
-* `pip3 freeze --local > requirements.txt`
+- `pip3 freeze --local > requirements.txt`
 
 The **Procfile** can be created with the following command:
 
-* `echo web: gunicorn app_name.wsgi > Procfile`
-* *replace **app_name** with the name of your primary Django app name; the folder where settings.py is located*
+- `echo web: gunicorn app_name.wsgi > Procfile`
+- _replace **app_name** with the name of your primary Django app name; the folder where settings.py is located_
 
 For Heroku deployment, follow these steps to connect your own GitHub repository to the newly created app:
 
 Either:
 
-* Select **Automatic Deployment** from the Heroku app.
+- Select **Automatic Deployment** from the Heroku app.
 
 Or:
 
-* In the Terminal/CLI, connect to Heroku using this command: `heroku login -i`
-* Set the remote for Heroku: `heroku git:remote -a app_name` (replace *app_name* with your app name)
-* After performing the standard Git `add`, `commit`, and `push` to GitHub, you can now type:
-  * `git push heroku main`
+- In the Terminal/CLI, connect to Heroku using this command: `heroku login -i`
+- Set the remote for Heroku: `heroku git:remote -a app_name` (replace _app_name_ with your app name)
+- After performing the standard Git `add`, `commit`, and `push` to GitHub, you can now type:
+  - `git push heroku main`
 
 The project should now be connected and deployed to Heroku!
 
@@ -562,9 +591,9 @@ The project should now be connected and deployed to Heroku!
 
 This project can be cloned or forked in order to make a local copy on your own system.
 
-For either method, you will need to install any applicable packages found within the *requirements.txt* file.
+For either method, you will need to install any applicable packages found within the _requirements.txt_ file.
 
-* `pip3 install -r requirements.txt`.
+- `pip3 install -r requirements.txt`.
 
 You will need to create a new file called `env.py` at the root-level,
 and include the same environment variables listed above from the Heroku deployment steps.
@@ -590,18 +619,18 @@ os.environ.setdefault("DEBUG", "True")
 
 Once the project is cloned or forked, in order to run it locally, you'll need to follow these steps:
 
-* Start the Django app: `python3 manage.py runserver`
-* Stop the app once it's loaded: `CTRL+C` or `⌘+C` (Mac)
-* Make any necessary migrations: `python3 manage.py makemigrations`
-* Migrate the data to the database: `python3 manage.py migrate`
-* Create a superuser: `python3 manage.py createsuperuser`
-* Load fixtures (if applicable): `python3 manage.py loaddata file-name.json` (repeat for each file)
-* Everything should be ready now, so run the Django app again: `python3 manage.py runserver`
+- Start the Django app: `python3 manage.py runserver`
+- Stop the app once it's loaded: `CTRL+C` or `⌘+C` (Mac)
+- Make any necessary migrations: `python3 manage.py makemigrations`
+- Migrate the data to the database: `python3 manage.py migrate`
+- Create a superuser: `python3 manage.py createsuperuser`
+- Load fixtures (if applicable): `python3 manage.py loaddata file-name.json` (repeat for each file)
+- Everything should be ready now, so run the Django app again: `python3 manage.py runserver`
 
 If you'd like to backup your database models, use the following command for each model you'd like to create a fixture for:
 
-* `python3 manage.py dumpdata your-model > your-model.json`
-* *repeat this action for each model you wish to backup*
+- `python3 manage.py dumpdata your-model > your-model.json`
+- _repeat this action for each model you wish to backup_
 
 #### Cloning
 
@@ -613,7 +642,7 @@ You can clone the repository by following these steps:
 4. Open Git Bash or Terminal
 5. Change the current working directory to the one where you want the cloned directory
 6. In your IDE Terminal, type the following command to clone my repository:
-	* `git clone https://github.com/JakBul/ForKids.git`
+   - `git clone https://github.com/JakBul/ForKids.git`
 7. Press Enter to create your local clone.
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
@@ -634,11 +663,11 @@ You can fork this repository by using the following steps:
 
 ## Credits
 
-| Source | Location | Notes |
-| --- | --- | --- |
-| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README | Tool to help generate the Markdown files |
+| Source                                                            | Location | Notes                                    |
+| ----------------------------------------------------------------- | -------- | ---------------------------------------- |
+| [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README   | Tool to help generate the Markdown files |
 
 ## Acknowledgments
 
-* First and foremost, I would like to thank my Code Institute mentor Rohit for his support throughout the development of this project
-* In addition, I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support
+- First and foremost, I would like to thank my Code Institute mentor Rohit for his support throughout the development of this project
+- In addition, I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support
