@@ -23,7 +23,7 @@ The user goals for this website are:
 |                 | sort the products                                | easily identify the best rated, best priced or categorically sorted products |
 |                 | search for a product by a name or description    | find a specific product                                                      |
 |                 | view items that I want to buy in my bag          | check the total cost and all selected products                               |
-|                 | adjust the quantity or items in my bag           | easily make changes before checkout                                          |
+|                 | adjust the quantity of items in my bag           | easily make changes before checkout                                          |
 |                 | safely enter my payment and personal information | checkout quickly without any problems                                        |
 |                 | view an order confirmation after checkout        | verify that I have not made any mistakes                                     |
 |                 | receive an email confirmation after checking out | keep the confirmation of the purchase                                        |
@@ -33,7 +33,7 @@ The user goals for this website are:
 | administrator   | add products                                     | add new items to my store                                                    |
 |                 | edit a product                                   | change product information                                                   |
 |                 | delete a product                                 | remove items that are no longer for sale                                     |
-|                 | check list of completed orders and users         | have feedback of the website processes                                       |
+|                 | check list of completed orders and users         | have a feedback of the website processes                                       |
 
 ## UX
 
@@ -380,25 +380,81 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ### Python
 
-I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
+I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate the Python files.
 
 | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/manage.py) | ![screenshot](documentation/py_validation_manage_py.png) | Pass with no errors |
+| /manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/manage.py) | ![screenshot](documentation/py_validation_manage_py.png) | Pass with no errors |
 | custom_storages.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/custom_storages.py) | ![screenshot](documentation/py_validation_storages_py.png) | Pass with no errors |
-| custom_storages.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/custom_storages.py) | ![screenshot](documentation/py_validation_storages_py.png) | Pass with no errors |
+| /settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/ForKids/settings.py) | ![screenshot](documentation/py_validation_settings_py.png) | Pass with no errors |
+| bag/views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/bag/views.py) | ![screenshot](documentation/py_validation_bag_views_py.png) | Pass with no errors |
+| checkout/webhooks.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/checkout/webhooks.py) | ![screenshot](documentation/py_validation_checkout_webhooks_py.png) | Pass with no errors |
+| checkout/webhook_handler.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/checkout/webhook_handler.py) | ![screenshot](documentation/py_validation_checkout_webhook_handler_py.png) | Pass with no errors |
+| checkout/views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/checkout/views.py) | ![screenshot](documentation/py_validation_checkout_views_py.png) | Pass with no errors |
+| checkout/models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/checkout/models.py) | ![screenshot](documentation/py_validation_checkout_models_py.png) | Pass with no errors |
+| products/views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/products/views.py) | ![screenshot](documentation/py_validation_products_views_py.png) | Pass with no errors |
+| products/models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/products/models.py) | ![screenshot](documentation/py_validation_products_models_py.png) | Pass with no errors |
+| profiles/views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/profiles/views.py) | ![screenshot](documentation/py_validation_profiles_views_py.png) | Pass with no errors |
 
 ## Browser Compatibility
 
+I have tested my deployed project on multiple browsers to check for compatibility issues.
+
+| Browser | Screenshot | Notes |
+| --- | --- | --- |
+| Chrome | ![screenshot](documentation/browser_chrome.png) | Works as expected |
+| Edge | ![screenshot](documentation/browser_edge.png) | Works as expected |
+| Safari (phone) | ![screenshot](documentation/browser_safari.jpg) | Works as expected |
+
 ## Responsiveness
+
+I have tested my deployed project on multiple devices to check for responsivity issues.
+
+| Device | Screenshot | Notes |
+| --- | --- | --- |
+| Mobile iPhone 13 | ![screenshot](documentation/browser_safari_1.jpg) | Works as expected |
+| Mobile iPhone 13 | ![screenshot](documentation/browser_safari_2.jpg) | Works as expected |
+| Mobile iPhone 10 | ![screenshot](documentation/responsiveness_phone.jpg) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/responsiveness_tablet.png) | Works as expected |
+| Desktop | ![screenshot](documentation/mockup.png) | Works as expected |
 
 ## Lighthouse Audit
 
+I have tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+
+| Page | Size | Screenshot | Notes |
+| --- | --- | --- | --- |
+| Home | Desktop | ![screenshot](documentation/lighthouse_home_page_desktop.png) | No major issues |
+| Home | Mobile | ![screenshot](documentation/lighthouse_home_page_mobile.png) | Issue with cache policy for static files |
+| Products | Desktop | ![screenshot](documentation/lighthouse_products_page_desktop.png) | Lower perfomance because of Jinja Template |
+| Products | Mobile | ![screenshot](documentation/lighthouse_products_page_mobile.png) | Low perfomance because of Jinja Template |
+
 ## User Story Testing
 
-## Known bugs and fixes
+| User Story | Screenshot |
+| --- | --- |
+| As a website visitor, I would like to view products, so that I can select one to buy. | ![screenshot](documentation/products_page.png) |
+| As a website visitor, I would like to check every individual product details, so that I can identify the price, description, product rating or image. | ![screenshot](documentation/product_details_page.png) |
+| As a website visitor, I would like to see the total cost of my shopping at any time, so that I can avoid spending too much. | ![screenshot](documentation/messages.png) |
+| As a website visitor, I would like to sort the products, so that I can easily identify the best rated, best priced or categorically sorted products. | ![screenshot](documentation/products_page.png) |
+| As a website visitor, I would like to search for a product by a name or description, so that I can find a specific product. | ![screenshot](documentation/use_search.png) |
+| As a website visitor, I would like to view items that I want to buy in my bag, so that I can check the total cost and all selected products. | ![screenshot](documentation/shopping_bag_page.png) |
+| As a website visitor, I would like to adjust the quantity of items in my bag, so that I can easily make changes before checkout. | ![screenshot](documentation/shopping_bag_page.png) |
+| As a website visitor, I would like to safely enter my payment and personal information, so that I can checkout quickly without any problems. | ![screenshot](documentation/checkout_page.png) |
+| As a website visitor, I would like to view an order confirmation after checkout, so that I can verify that I have not made any mistakes. | ![screenshot](documentation/order_confirmation.png) |
+| As a site user, I would like to easily register for an account, so that I can have a personal profile. | ![screenshot](documentation/sign_up_page.png) |
+| As a site user, I would like to login, logout, or recover my password, so that I can access or recover my personal account information. | ![screenshot](documentation/sign_in_page.png) |
+| As a site user, I would like to have a personalized user profile, so that I can view my order history or order confirmations. | ![screenshot](documentation/profile_page.png) |
+| As an administrator, I would like to add products, so that I can add new items to my store. | ![screenshot](product_management_page.png) |
+| As an administrator, I would like to check list of completed orders and users, so that I can have a feedback of the website processes. | ![screenshot](documentation/django_admin.png) |
 
 ## Unfixed Bugs
+
+- There is this bug on the Product Details page for each product where it's possible to press the button minus many times after 0. I tried to implement JavaScript code to not being able to access it when it equals 0 but I couldn't fix it properly.
+
+![screenshot](documentation/js_bug.jpg)
+
+- The confirmation or verification e-mails from Gmail API are not working at the moment. I have been trying to fix it for two days but could not find a solution. For now, I have setup the " ACCOUNT_EMAIL_VERIFICATION = 'none' " in /settings.py file so the users can use the website without any disturbance when logging in. The order confirmations are visible in the My Profile page for the moment.
 
 There are no other remaining bugs that I am aware of.
 
@@ -728,6 +784,7 @@ You can fork this repository by using the following steps:
 | Source                                                            | Location | Notes                                    |
 | ----------------------------------------------------------------- | -------- | ---------------------------------------- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README   | Tool to help generate the Markdown files |
+| [Code Institute](https://learn.codeinstitute.net/ci_program/level5diplomainwebappdevelopment) | Entire project | Walkthrough project that helped me to understand the principles of coding a full responsive app in Django using Stripe, Heroku and AWS |
 
 ## Acknowledgments
 
