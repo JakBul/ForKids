@@ -107,13 +107,15 @@ The colours have been mainly used with help of Bootstrap framework.
 
 ### Typography
 
-I decided to use Google font 'Lato' with different font weights throughout the project thanks to its elegance. I left the font 'sans-serif' as a backup font style if anything goes wrong with the Google link. Secondly, I used the Google font 'Metal Mania' for the logo of the website.
+I decided to use Google font 'Lato' with different font weights throughout the project thanks to its elegance. I left the font 'sans-serif' as a backup font style if anything goes wrong with the Google link. Secondly, I used the Google font 'Metal Mania' for the logo of the website. Last but not least, the Font Awesome icons were used throughout the site, such as the social media icons in the footer.
 
 - [Lato](https://fonts.google.com/specimen/Lato)
 
 - [Sans-serif](https://fonts.google.com/knowledge/glossary/sans_serif)
 
 - [Metal Mania](https://fonts.google.com/specimen/Metal+Mania)
+
+- [Font Awesome](https://fontawesome.com)
 
 ## Wireframes
 
@@ -258,7 +260,7 @@ The whole design is currently on point. It has been developed in a simple way to
 
 If I sell products or services online, my ecommerce business must include the legal documents like an up-to-date, easy to find and easily accessible Privacy Policy. a Cookie Policy (if I use cookies) a Terms and Conditions document. It's necessary to add them before getting really into business.
 
-I am also wondering about ideas around e-mail marketing or creating a blog using Django CMS.
+I am also wondering about ideas with e-mail marketing or creating a blog using Django CMS.
 
 ## Tools & Technologies Used
 
@@ -367,7 +369,24 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ### JavaScript
 
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| JS in products.html | ![screenshot](documentation/js_validation_products_html.png) | Pass with no errors |
+| JS in bag.html | ![screenshot](documentation/js_validation_bag_html.png) | Pass with no errors |
+| countryfield.js | ![screenshot](documentation/js_validation_countryfield_js.png) | Pass with no errors |
+| stripe_elements.js | ![screenshot](documentation/js_validation_stripe_elements_js.png) | Undefined Stripe variable |
+
 ### Python
+
+I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
+
+| File | CI URL | Screenshot | Notes |
+| --- | --- | --- | --- |
+| manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/manage.py) | ![screenshot](documentation/py_validation_manage_py.png) | Pass with no errors |
+| custom_storages.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/custom_storages.py) | ![screenshot](documentation/py_validation_storages_py.png) | Pass with no errors |
+| custom_storages.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/JakBul/ForKids/main/custom_storages.py) | ![screenshot](documentation/py_validation_storages_py.png) | Pass with no errors |
 
 ## Browser Compatibility
 
