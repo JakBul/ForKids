@@ -71,7 +71,8 @@ def checkout(request):
                         order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
-                        "One of the products in your bag wasn't found in our database. "
+                        "One of the products in your bag wasn't \
+                            found in our database. "
                         "Please call us for assistance!")
                     )
                     order.delete()
@@ -87,7 +88,8 @@ def checkout(request):
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            messages.error(request, "There is nothing in your shopping bag at the moment")
+            messages.error(request, "There is nothing in your shopping bag \
+                at the moment")
             return redirect(reverse('products'))
 
         current_bag = bag_contents(request)
@@ -119,7 +121,8 @@ def checkout(request):
             order_form = OrderForm()
 
     if not stripe_public_key:
-        message.warning(request, 'Stripe public key is missing. Did you forget to set it in your environment?')
+        messages.warning(request, 'Stripe public key is missing. Did you \
+            forget to set it in your environment?')
 
     template = 'checkout/checkout.html'
     context = {
@@ -133,7 +136,7 @@ def checkout(request):
 
 def checkout_success(request, order_number):
     """ Handle successful checkouts """
-    
+
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
@@ -144,7 +147,7 @@ def checkout_success(request, order_number):
         order.user_profile = profile
         order.save()
 
-        #Save the user's info
+        # Save the user's info
         if save_info:
             profile_data = {
                 'default_phone_number': order.phone_number,

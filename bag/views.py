@@ -29,7 +29,8 @@ def add_to_bag(request, item_id):
             request, f'Updated {product.name} quantity to {bag[item_id]}')
     else:
         bag[item_id] = quantity
-        messages.success(request, f'Added {product.name} to your shopping bag.')
+        messages.success(request, f'Added {product.name} to\
+            your shopping bag.')
 
     # overwrite the variable with the updated version
     request.session['bag'] = bag
@@ -53,7 +54,8 @@ def adjust_bag(request, item_id):
     else:
         bag.pop(item_id)
         messages.success(
-            request, f'Product {product.name} has been removed from your shopping bag.')
+            request, f'Product {product.name} has been removed\
+                 from your shopping bag.')
 
     # overwrite the variable with the updated version
     request.session['bag'] = bag
@@ -70,7 +72,8 @@ def remove_from_bag(request, item_id):
 
         bag.pop(item_id)
         messages.success(
-            request, f'Product {product.name} has been removed from your shopping bag.')
+            request, f'Product {product.name} has been\
+                 removed from your shopping bag.')
 
         # overwrite the variable with the updated version
         request.session['bag'] = bag
